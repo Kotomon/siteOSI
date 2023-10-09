@@ -1,0 +1,46 @@
+.licenzii_i_sertifikaty_main_container_name{
+    font-size: 30px;
+    text-align: center;
+}
+.licenzii_i_sertifikaty_main_container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.licenzii_i_sertifikaty_container_img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 0px 30px 30px 30px;
+}
+.licenzii_i_sertifikaty_section_img{
+    max-width: 200px;
+    margin: 0px 20px;
+}
+.licenzii_i_sertifikaty_section_img img{
+    max-width: 200px;
+    padding: 0;
+}
+.licenzii_i_sertifikaty_section_img img[tabindex="0"] {
+    cursor: zoom-in;
+}
+.licenzii_i_sertifikaty_section_img img[tabindex="0"]:focus {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    max-width: 85%;
+    max-height: 85%;
+    margin: auto;
+    box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(59,59,59,.9);
+}
+.licenzii_i_sertifikaty_section_img img[tabindex="0"]:focus, 
+.licenzii_i_sertifikaty_section_img img[tabindex="0"]:focus ~ * {
+    pointer-events: none;
+}

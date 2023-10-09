@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://zi.izumrud-ao.ru/Sitemap.xml
